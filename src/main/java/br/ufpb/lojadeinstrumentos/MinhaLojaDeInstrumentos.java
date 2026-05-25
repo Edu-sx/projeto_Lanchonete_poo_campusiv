@@ -7,4 +7,5 @@ public interface MinhaLojaDeInstrumentos {
     public void cadastrarInstrumento(Instrumento instrumento) throws InstrumentoJaExisteException;
     public LinkedList<Instrumento> pesquisarInstrumentoPorNome (String nome) throws IOException;
     public void salvarInstrumentos() throws IOException;
+    public LinkedList<Instrumento> pesquisarInstrumentoPorCategoria (String categoria) throws IOException;
 }

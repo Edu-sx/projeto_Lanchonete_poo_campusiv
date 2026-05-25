@@ -50,4 +50,8 @@ public class Instrumento {
     public void setCategoria (String categoria){
         this.categoria = categoria;
     }
+
+    public String toString (){
+        return "Instrumento:" + nome + "Preço:" + preco;
+    }
 }
