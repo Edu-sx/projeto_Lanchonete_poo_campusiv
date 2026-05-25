@@ -1,2 +1,2 @@
-# projeto_Lanchonete_poo_campusiv
+# Projeto_Lanchonete
 Um sistema que gerencia um católogo de uma loja de instrumentos.
